@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
 /* ======================================
             common css
 ====================================*/
-section{
+article{
   height:500px;
   margin-left: 10%;
   margin-right: 10%;
@@ -49,10 +49,11 @@ p{
   margin-top:125px;
 }
 .header_top{
-  border-left: 5px solid blue;
+  border-left: 5px solid rgb(255, 0, 0);
+  padding-right: 20px;
 }
 .heading_color{
-  color:red;
+  color:blue;
 }
 .half_width{
   width:40%;
@@ -74,8 +75,8 @@ font-size: 45px;
 }
 .mission{
   width:25%;
-  margin-left: 25px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 25px;
   padding:2%;
   height:330px;
   background-color:rgba(0, 0, 255, 0.048);
@@ -93,11 +94,18 @@ font-size: 45px;
   width:100px;
 }
 #mission_color{
-  color:green;
+  color:rgb(251, 8, 8);
 }
 /* =====================================
                 main top
 ======================================*/
+.main_top_section{
+  background-image: url(images/background/shape-1.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size:250px;
+  
+}
 .main_top_area{
   margin-top: 50px;
 }
@@ -111,6 +119,12 @@ width:100%;
 /* ========================================
                 main bottom
 =========================================*/
+.main_bottom_section{
+  background-image: url(images/background/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 250px;
+}
 .main_bottom_area{
   margin-top: 50px;
 }
@@ -124,9 +138,28 @@ width:100%;
   margin-left: 200px;
 }
 /* ======================================
-          bonus content
+          about area
 =======================================*/
+.input_section h2{
+text-align: center;
+padding-bottom: 30px;
+color:rgb(27, 216, 9)
+}
+.form{
+  background-color: #8080801e;
+  padding:20px;
+  border-radius: 10px;
+  border: 2px solid mediumorchid;
+ margin-left: 20px;
 
+}
+.list{
+  background-color:rgba(98, 241, 241, 0.295) ;
+  border-radius: 10px;
+  padding: 37px;
+  margin-left: 45px;
+  border: 2px solid cyan;
+}
 
 
 /* ===========================================
@@ -136,8 +169,10 @@ footer{
   background-color: black;
   height:120px;
   color:white;
-  text-align: center;
   padding-top: 20px;
+}
+footer h2, p{
+  text-align: center;
 }
 
 #footer_deco{
