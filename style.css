@@ -15,7 +15,6 @@ article{
 .photo{
   width: 100%;
 }
-
 h1{
   font-size: 50px;
   line-height: 20px;
@@ -37,13 +36,15 @@ p{
 .link_btn:hover{
   background-color:rgba(128, 128, 128, 0.788) ;
 }
-
 /* =======================================
             header area
 =====================================*/
 .header_area img{
   width:100%; 
   margin-left: 200px;
+}
+.header_area p{
+margin-bottom:30px;
 }
 #main_top{
   margin-top:125px;
@@ -59,7 +60,6 @@ p{
   width:40%;
   float:left;
 }
-
 /* ======================================
             mission area
 ===================================*/
@@ -71,7 +71,6 @@ text-align: center;
 margin-bottom: 50px;
 margin-top: 60px;
 font-size: 45px;
-
 }
 .mission{
   width:25%;
@@ -81,8 +80,7 @@ font-size: 45px;
   height:330px;
   background-color:rgba(0, 0, 255, 0.048);
   border-radius: 10px;
-  float:left;
-  
+  float:left; 
 }
 #vision{
   background-color: rgba(255, 255, 0, 0.185);
@@ -103,11 +101,13 @@ font-size: 45px;
   background-image: url(images/background/shape-1.png);
   background-repeat: no-repeat;
   background-position:left;
-  background-size:250px;
-  
+  background-size:250px; 
 }
 .main_top_area{
   margin-top: 50px;
+}
+.main_top_area p{
+margin-bottom:30px;
 }
 .main_top_area img{
 width:100%;
@@ -127,6 +127,9 @@ width:100%;
 }
 .main_bottom_area{
   margin-top: 50px;
+}
+.main_bottom_area p{
+  margin-bottom: 30px;
 }
 .main_bottom_area img{
 width:100%;
@@ -151,7 +154,6 @@ color:rgb(27, 216, 9)
   border-radius: 10px;
   border: 2px solid mediumorchid;
  margin-left: 20px;
-
 }
 .list{
   background-color:rgba(98, 241, 241, 0.295) ;
@@ -160,8 +162,6 @@ color:rgb(27, 216, 9)
   margin-left: 45px;
   border: 2px solid cyan;
 }
-
-
 /* ===========================================
           footer area
 ============================================ */
@@ -171,10 +171,9 @@ footer{
   color:white;
   padding-top: 20px;
 }
-footer h2, p{
+footer h2{
   text-align: center;
 }
-
 #footer_deco{
   color:rgb(10, 10, 207)
 }
