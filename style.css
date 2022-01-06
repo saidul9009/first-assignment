@@ -1,0 +1,145 @@
+body{
+  font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+/* ======================================
+            common css
+====================================*/
+section{
+  height:500px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.photo{
+  width: 100%;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 20px;
+}
+p{
+  color:#666;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+.link_btn{
+  padding:15px 40px;
+  background-color:gray;
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+  border-radius: 5px;
+}
+.link_btn:hover{
+  background-color:rgba(128, 128, 128, 0.788) ;
+}
+
+/* =======================================
+            header area
+=====================================*/
+.header_area img{
+  width:100%; 
+  margin-left: 200px;
+}
+#main_top{
+  margin-top:125px;
+}
+.header_top{
+  border-left: 5px solid blue;
+}
+.heading_color{
+  color:red;
+}
+.half_width{
+  width:40%;
+  float:left;
+}
+
+/* ======================================
+            mission area
+===================================*/
+.mission_area{
+  margin-top: 100px;
+}
+.mission_area h2{
+text-align: center;
+margin-bottom: 50px;
+margin-top: 60px;
+font-size: 45px;
+
+}
+.mission{
+  width:25%;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding:2%;
+  height:330px;
+  background-color:rgba(0, 0, 255, 0.048);
+  border-radius: 10px;
+  float:left;
+  
+}
+#vision{
+  background-color: rgba(255, 255, 0, 0.185);
+}
+#goals{
+  background-color: rgba(13, 200, 233, 0.226);
+}
+.illustrator img{
+  width:100px;
+}
+#mission_color{
+  color:green;
+}
+/* =====================================
+                main top
+======================================*/
+.main_top_area{
+  margin-top: 50px;
+}
+.main_top_area img{
+width:100%;
+}
+#top_text{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+/* ========================================
+                main bottom
+=========================================*/
+.main_bottom_area{
+  margin-top: 50px;
+}
+.main_bottom_area img{
+width:100%;
+}
+#bottom_text{
+  margin-top: 50px;
+}
+#bottom_photo{
+  margin-left: 200px;
+}
+/* ======================================
+          bonus content
+=======================================*/
+
+
+
+/* ===========================================
+          footer area
+============================================ */
+footer{
+  background-color: black;
+  height:120px;
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#footer_deco{
+  color:rgb(10, 10, 207)
+}
