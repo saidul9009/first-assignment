@@ -22,11 +22,11 @@ h1{
 p{
   color:#666;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
   text-align: justify;
 }
 .link_btn{
-  padding:15px 40px;
+  padding:15px 30px;
   background-color:gray;
   text-decoration: none;
   font-weight: bold;
@@ -50,9 +50,9 @@ margin-bottom:30px;
   margin-top:125px;
 }
 .header_top{
-  border-left: 5px solid rgb(255, 0, 0);
-  padding-right: 20px;
-}
+  border-left:3px solid red;
+  font-family:Georgia, 'Times New Roman', Times, serif
+ }
 .heading_color{
   color:blue;
 }
@@ -141,39 +141,80 @@ width:100%;
   margin-left: 200px;
 }
 /* ======================================
-          about area
+          about section
 =======================================*/
+.input_section{
+  background-color: rgba(189, 186, 186, 0.123);
+}
 .input_section h2{
+  font-size: 40px;
 text-align: center;
-padding-bottom: 30px;
-color:rgb(27, 216, 9)
+padding-top: 30px;
+padding-bottom: 20px;
+color:deeppink;
 }
 .form{
   background-color: #8080801e;
   padding:20px;
   border-radius: 10px;
-  border: 2px solid mediumorchid;
+  border: 3px solid mediumorchid;
  margin-left: 20px;
 }
 .list{
   background-color:rgba(98, 241, 241, 0.295) ;
   border-radius: 10px;
   padding: 37px;
-  margin-left: 45px;
-  border: 2px solid cyan;
+  margin-left: 45px; 
+  border:3px solid cyan;
 }
+ol{
+  background-color: deeppink;
+  color:white;
+  margin-left:10px;
+  border-radius: 5px;
+}
+ul{
+  background-color: mediumspringgreen;
+  margin-left: 10px;
+  border-radius: 5px;
+  color:black;
+}
+input{
+  background-color: rgba(240, 120, 230, 0.171);
+  border-radius: 3px;
+  padding:3px;
+  margin-bottom: 3px;
+  color:black
+}
+checkbox{
+  border:2px solid chartreuse;
+}
+#btn{
+  background-color: darkorange;
+  color:white;
+  border-radius: 3px;
+  border:none;
+}
+#btn:hover{
+  background-color: black;
+  color:white;
+}
+textarea{
+  background-color: rgba(131, 240, 240, 0.274);
+}
+
 /* ===========================================
           footer area
 ============================================ */
-footer{
+.main_footer{
   background-color: black;
   height:120px;
   color:white;
-  padding-top: 20px;
+  padding-top: 20px; 
 }
-footer h2{
-  text-align: center;
+footer p, h2{
+  text-align: center; 
 }
-#footer_deco{
+#heading_color{
   color:rgb(10, 10, 207)
 }
